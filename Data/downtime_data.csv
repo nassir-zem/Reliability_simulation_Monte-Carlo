@@ -1,1 +1,4 @@
-
+machine,total_downtime,total_failures
+M1,694,87
+M2,557.3,72
+M3,310.3,48
