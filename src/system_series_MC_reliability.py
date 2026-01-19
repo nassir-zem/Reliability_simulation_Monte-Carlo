@@ -1,4 +1,4 @@
-from monte_carlo import simulate_machine
+from MonteCarlo_reliability import simulate_machine
 
 def system_reliability(lambdas, t):
     R = 1
