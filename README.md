@@ -1,2 +1,15 @@
-# Reliability_simulation_Monte-Carlo
-Étudier la fiabilité d'un système industriel composé de 3 machines en série, en utilisant une simulation événementielle Monte-Carlo pour estimer la probabilité de défaut.
+# Monte Carlo Reliability Simulation
+
+This project simulates the reliability of an industrial production line
+using Monte Carlo methods assuming exponential failure times.
+
+## Features
+- Reliability estimation of each machine
+- Series system reliability
+- Monte Carlo vs analytical comparison
+
+## Technologies
+- Python
+- NumPy
+- Pandas
+- Matplotlib
