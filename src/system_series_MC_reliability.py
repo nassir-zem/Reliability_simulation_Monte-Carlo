@@ -1,7 +1,7 @@
-from MonteCarlo_reliability import simulate_machine
+from MonteCarlo_reliability import monte_carlo_reliability
 
 def system_reliability(lambdas, t):
     R = 1
     for lam in lambdas:
-        R *= simulate_machine(lam, t)
+        R *= monte_carlo_reliability(lam, t)
     return R
